@@ -51,6 +51,8 @@ az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 When you’ve created the workspace and necessary compute resources, in the Azure portal, navigate to the Azure Machine Learning
 
 CHAPTER TWO
+
+
 In the Azure portal, navigate to the Azure Machine Learning workspace named mlw-dp100-….
 Select the Azure Machine Learning workspace, and in its Overview page, select Launch studio. Another tab will open in your browser to open the Azure Machine Learning studio.
 Close any pop-ups that appear in the studio.
@@ -90,4 +92,14 @@ Go to Jobs and select the auto-ml-class-dev experiment.
 Select the job under the Display name column.
 Wait for its status to change to Completed.
 
+CHAPTER THREE
 
+Delete Azure resources
+
+When you finish exploring Azure Machine Learning, you should delete the resources you’ve created to avoid unnecessary Azure costs.
+
+Close the Azure Machine Learning studio tab and return to the Azure portal.
+In the Azure portal, on the Home page, select Resource groups.
+Select the rg-dp100-… resource group.
+At the top of the Overview page for your resource group, select Delete resource group.
+Enter the resource group name to confirm you want to delete it, and select Delete.
